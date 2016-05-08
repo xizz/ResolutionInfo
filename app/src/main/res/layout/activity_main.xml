@@ -1,15 +1,15 @@
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-              xmlns:tools="http://schemas.android.com/tools"
-              android:id="@+id/LinearLayout1"
-              android:layout_width="match_parent"
-              android:layout_height="match_parent"
-              android:background="#CFF"
-              android:orientation="vertical"
-              android:paddingBottom="@dimen/activity_vertical_margin"
-              android:paddingLeft="@dimen/activity_horizontal_margin"
-              android:paddingRight="@dimen/activity_horizontal_margin"
-              android:paddingTop="@dimen/activity_vertical_margin"
-              tools:context=".MainActivity"
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical"
+	android:paddingBottom="@dimen/activity_vertical_margin"
+	android:paddingLeft="@dimen/activity_horizontal_margin"
+	android:paddingRight="@dimen/activity_horizontal_margin"
+	android:paddingTop="@dimen/activity_vertical_margin"
+	tools:context="com.xizz.resolutioninfo.MainActivity"
 	>
 
 	<TextView
@@ -17,10 +17,11 @@
 		android:layout_height="wrap_content"
 		android:layout_marginTop="10dp"
 		android:text="@string/diagonal"
+		android:textStyle="bold"
 		/>
 
 	<TextView
-		android:id="@+id/textViewDiagonal"
+		android:id="@+id/text_diagonal"
 		android:layout_width="wrap_content"
 		android:layout_height="wrap_content"
 		android:layout_marginTop="5dp"
@@ -31,10 +32,11 @@
 		android:layout_height="wrap_content"
 		android:layout_marginTop="10dp"
 		android:text="@string/size"
+		android:textStyle="bold"
 		/>
 
 	<TextView
-		android:id="@+id/textViewSize"
+		android:id="@+id/text_size"
 		android:layout_width="wrap_content"
 		android:layout_height="wrap_content"
 		android:layout_marginTop="5dp"
@@ -44,11 +46,27 @@
 		android:layout_width="wrap_content"
 		android:layout_height="wrap_content"
 		android:layout_marginTop="10dp"
-		android:text="@string/resolution"
+		android:text="@string/resolution_dp"
+		android:textStyle="bold"
 		/>
 
 	<TextView
-		android:id="@+id/textViewResolution"
+		android:id="@+id/text_resolution_dp"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="5dp"
+		/>
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="10dp"
+		android:text="@string/resolution_px"
+		android:textStyle="bold"
+		/>
+
+	<TextView
+		android:id="@+id/text_resolution_px"
 		android:layout_width="wrap_content"
 		android:layout_height="wrap_content"
 		android:layout_marginTop="5dp"
@@ -59,13 +77,13 @@
 		android:layout_height="wrap_content"
 		android:layout_marginTop="10dp"
 		android:text="@string/density"
+		android:textStyle="bold"
 		/>
 
 	<TextView
-		android:id="@+id/textViewDensity"
+		android:id="@+id/text_density"
 		android:layout_width="wrap_content"
 		android:layout_height="wrap_content"
 		android:layout_marginTop="5dp"
 		/>
-
 </LinearLayout>

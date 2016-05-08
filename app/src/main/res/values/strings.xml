@@ -2,8 +2,8 @@
 	<string name="app_name">Resolution Info</string>
 	<string name="diagonal">Screen Diagonal Length (inches):</string>
 	<string name="size">Screen Size (inches):</string>
-	<string name="resolution">Screen Resolution (px):&#160;</string>
 	<string name="resolution_dp">Screen Resolution (dp):</string>
 	<string name="resolution_px">Screen Resolution (px):</string>
 	<string name="density">Density (px/inch):</string>
+	<string name="x_formatted">%1$s x %2$s</string>
 </resources>
