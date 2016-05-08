@@ -1,9 +1,9 @@
 <resources>
-
 	<string name="app_name">屏幕分辨率信息</string>
 	<string name="diagonal">屏幕对角长度（英寸）：</string>
 	<string name="size">屏幕宽长（英寸）：</string>
 	<string name="resolution_dp">屏幕分辨率（设备像素）：</string>
 	<string name="resolution_px">屏幕分辨率（像素）：</string>
 	<string name="density">屏幕密度（像素/英寸）：</string>
+	<string name="x_formatted">%1$s x %2$s</string>
 </resources>
